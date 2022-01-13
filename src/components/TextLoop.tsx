@@ -4,7 +4,7 @@ import {
     spring,
     OpaqueConfig,
     TransitionStyle,
-} from "react-motion";
+} from "@serprex/react-motion";
 import cxs from "cxs";
 import isEqual from "react-fast-compare";
 import { requestTimeout, clearRequestTimeout, RequestTimeout } from "../utils";

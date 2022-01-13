@@ -1,6 +1,6 @@
 {
-    "name": "react-text-loop",
-    "version": "2.3.0",
+    "name": "@malmgrenola/react-text-loop",
+    "version": "2.3.1",
     "description": "Create an animated loop of a list of text for your headings",
     "main": "./lib/index.js",
     "module": "es/index.js",
@@ -42,11 +42,7 @@
         "react",
         "motion"
     ],
-    "author": {
-        "name": "Bernardo Raposo",
-        "email": "hi@bernardoraposo.com",
-        "url": "http://bernardoraposo.com"
-    },
+    "author": "Bernardo Raposo <hi@bernardoraposo.com> (http://bernardoraposo.com)",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/braposo/react-text-loop/issues"
@@ -97,8 +93,11 @@
         "react-dom": "^15.0.1 || ^16.0.1"
     },
     "dependencies": {
+        "@serprex/react-motion": "^0.6.3",
         "cxs": "^6.2.0",
-        "react-fast-compare": "2.0.4",
-        "react-motion": "^0.5.2"
+        "react-fast-compare": "2.0.4"
+    },
+    "directories": {
+        "example": "examples"
     }
 }
